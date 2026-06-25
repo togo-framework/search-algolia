@@ -1,6 +1,6 @@
 # search-algolia — documentation
 
-  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+Algolia driver for togo full-text search
 
 ## Overview
 
@@ -17,13 +17,12 @@ Set `SEARCH_DRIVER=algolia`.
 
 ## Configuration
 
-Environment variables read by this plugin (extracted from the source):
+Environment variables read by this plugin (extracted from the source — see the gateway/provider docs for each value):
 
-| Env var | Notes |
-|---|---|
-| `ALGOLIA_API_KEY` | _see provider docs_ |
-| `ALGOLIA_APP_ID` | _see provider docs_ |
-| `G` | _see provider docs_ |
+| Env var |
+|---|
+| `ALGOLIA_API_KEY"` |
+| `ALGOLIA_APP_ID"` |
 
 ## Usage
 
@@ -37,4 +36,4 @@ hits, _ := s.Search(ctx, "posts", "query")
 
 - Marketplace: https://to-go.dev/marketplace
 - Source: https://github.com/togo-framework/search-algolia
-- README: ../README.md
+- Full README: ../README.md
