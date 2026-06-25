@@ -21,8 +21,8 @@ Environment variables read by this plugin (extracted from the source — see the
 
 | Env var |
 |---|
-| `ALGOLIA_API_KEY"` |
-| `ALGOLIA_APP_ID"` |
+| `ALGOLIA_API_KEY` |
+| `ALGOLIA_APP_ID` |
 
 ## Usage
 
